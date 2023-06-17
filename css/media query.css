@@ -4,6 +4,10 @@ Desktop First
 Usiamo max width, dalla più grande alla più piccola
 */
 
+@media screen and (max-width: 1400px) {
+    
+}
+
 @media screen and (max-width: 1100px) {
     
 }
