@@ -201,20 +201,20 @@ main>* {
 }
 
 .left-bar {
-    flex-basis: 0;
-    flex-shrink: 0;
+    width: 25%;
 }
 
 .left-section {
     display: flex;
-    gap: 1rem;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 1rem;
     padding: 1rem;
 }
 
 .left-section img {
-    width: 80px
+    width: 100px;
+    max-width: 100%;
 }
 
 .title-song {
@@ -223,43 +223,46 @@ main>* {
 
 .specs-song {
     white-space: nowrap;
-    color: #7A7A7A;
+    color: #5A5A5A;
+}
+
+.icon-section {
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    color: #5A5A5A;
 }
 
 .icon-section {
     display: flex;
-    gap: 1rem;
-    color: white;
-    font-size: 1.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    
+    gap: 0.5rem;
 }
 
 .central-bar {
-    flex-grow: 1;
-    flex-basis: 0;
+    width: 50%;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.media-player-section {
-    display: flex;
-    gap: 3rem;
-    padding: 0.5rem;
+    gap: 1rem;
 }
 
 .media-player-section i {
     color: white;
-    font-size: 2rem;
+    padding: 0 2rem;
+    font-size: 2.5rem;
 }
 
 .time-section {
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+.time-section .time-line {
+    width: 500px;
+    max-width: 100%;
+    height: 10px;
+    background-color: #5A5A5A;
+    border: none;
 }
 
 .duration-time {
@@ -269,21 +272,33 @@ main>* {
     font-weight: bold;
 }
 
-.time-line {
-    width: 500px;
-    height: 5px;
+.right-bar {
+    width: 25%;
+    display: flex;
+}
+
+.video-audio-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.video-audio-tools i {
+    color: white;
+    padding: 0 0.5rem;
+    font-size: 1.5rem
+}
+
+/* .video-audio-tools hr {
+    width: 80px;
+    max-width: 100%;
+    height: 10px;
     background-color: #5A5A5A;
     border: none;
-}
+} */
 
 
-
-
-
-.right-bar {
-    flex-basis: 0;
-    flex-shrink: 0;
-}
 
 
 
