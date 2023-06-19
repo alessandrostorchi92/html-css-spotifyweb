@@ -11,7 +11,6 @@ Usiamo max width, dalla più grande alla più piccola
     .col-1-4 {
         flex-basis: calc((100% / 4) - var(--card-gap));
     }
-
 }
 
 @media screen and (max-width: 700px) {
