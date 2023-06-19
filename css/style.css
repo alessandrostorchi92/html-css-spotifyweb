@@ -111,6 +111,8 @@ main>* {
 
 .menu-list-bar ul {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .menu-list-bar ul li {
