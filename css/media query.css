@@ -73,4 +73,29 @@ Usiamo max width, dalla più grande alla più piccola
         width: 50px;
     }
 
+    nav {
+        text-align: center;
+    }
+
+    #logo-container .logo-large {
+        display: none;
+    }
+    
+    #logo-container .logo-small {
+        display: block;
+        margin: auto;
+    }
+
+    .navbar-container ul li a .navbar-container-item-text {
+        display: none;
+    }
+
+    .playlist-section {
+        display: none;
+    }
+
+    .bottom-section ul li a .navbar-container-item-text {
+        display: none;
+    }
+
 }
